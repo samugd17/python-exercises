@@ -15,7 +15,6 @@ def run(input_path: str, output_path: str) -> None:
 
 # DO NOT TOUCH THE CODE BELOW
 if __name__ == '__main__':
-    run('data/animals.input.txt', 'data/animals.output.md')
     import vendor
 
     vendor.launch(run)
