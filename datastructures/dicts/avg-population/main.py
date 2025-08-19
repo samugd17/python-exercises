@@ -11,7 +11,6 @@ def run(pdata: dict) -> dict:
 
 # DO NOT TOUCH THE CODE BELOW
 if __name__ == '__main__':
-    run({'Tokyo': 38140000, 'Delhi': 26454000, 'Shanghai': 24484000, 'Mumbai': 21357000})
-    # import vendor
+    import vendor
 
-    # vendor.launch(run)
+    vendor.launch(run)
